@@ -1,0 +1,41 @@
+header{
+    padding: 40px;
+
+    background-color: rgb(35, 21, 21);
+    color: white;
+}
+
+.hero{
+    font-family: 'Pacifico', cursive;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    flex-direction: row;
+
+    gap: 70px;
+}
+
+.header-links{
+    padding: 10px;
+
+    color: white;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header-links:hover{
+    background-color: whitesmoke;
+    color: black;
+
+    border-radius: 10px;
+
+    transition: all 0.5s;
+}

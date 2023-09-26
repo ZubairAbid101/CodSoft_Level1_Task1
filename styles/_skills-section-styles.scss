@@ -1,0 +1,52 @@
+#skills{
+    padding: 50px;
+
+    background-color: #3D2A2A;
+    color: whitesmoke;
+}
+
+.skills-container > h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+
+.skills-container > p {
+    margin: 20px 0px;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.skills-container > h2{
+    margin: 70px 0px 20px 0px;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+
+    text-align: center;
+}
+
+.resume-link{
+    width: fit-content;
+
+    padding: 20px 30px;
+    margin: 0px auto;
+
+    background-color: black;
+    color: whitesmoke;
+
+    border-radius: 10px;
+
+    display: block;
+}
+
+.resume-link:hover{
+    background-color: white;
+    color: gray;
+
+    transition: all 0.5s;
+}
+
+i{
+    margin: 10px;
+}

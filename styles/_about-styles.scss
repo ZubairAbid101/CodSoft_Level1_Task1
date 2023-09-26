@@ -1,0 +1,69 @@
+#about{
+    height: 600px;
+
+    padding: 50px;
+
+    background-color: rgb(154, 36, 36);
+    color: whitesmoke;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.basic-info{
+    position: relative;
+    z-index: 1;
+}
+
+.basic-info > h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+}
+
+.basic-info > p:first-of-type{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+.basic-info > p:nth-of-type(2) {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+}
+
+.profile-pic-container{
+    width: 300px;
+}
+
+.profile-pic{
+    border-radius: 10%;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 190px;
+}
+
+.wave .shape-fill {
+    fill: #3D2A2A;
+}
+
+.blob{
+    position: absolute;
+    transform: translateY(-80%);
+}
